@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         naverNewsApi = retrofit.create(NaverNewsApi.class);
 
-        Call<Result> call = naverNewsApi.getItems(clientID, clientSecret,"동방신기", 3, "date");
+        Call<Result> call = naverNewsApi.getItems(clientID, clientSecret,"test", 3, "date");
 
         call.enqueue(new Callback<Result>() {
             @Override
@@ -57,14 +57,13 @@ public class MainActivity extends AppCompatActivity {
                 Result result = response.body();
                 List<Items> items = result.getItems();
 
+                String content = "";
                 for(Items item : items) {
-                    String content = "";
                     content += "Title: " + item.getTitle() + "\n";
                     content += "description: " + item.getDescription() + "\n";
                     content += "Link: " + item.getLink() + "\n";
-
-                    tv_result.setText(content);
                 }
+                tv_result.setText(content);
 
             }
 

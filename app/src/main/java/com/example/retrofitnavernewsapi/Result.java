@@ -13,11 +13,11 @@ public class Result {
          "display": 20,
          "items": [
          {
-            "title": "<b>유노윤호</b>의 사과",
-            "originallink": "http://www.vogue.co.kr/2021/03/10/%ec%9c%a0%eb%85%b8%ec%9c%a4%ed%98%b8%ec%9d%98-%ec%82%ac%ea%b3%bc/?utm_source=naver&utm_medium=partnership",
-            "link": "http://www.vogue.co.kr/2021/03/10/%ec%9c%a0%eb%85%b8%ec%9c%a4%ed%98%b8%ec%9d%98-%ec%82%ac%ea%b3%bc/?utm_source=naver&utm_medium=partnership",
-            "description": "동방신기 <b>유노윤호</b>가 자신의 잘못을 사과했습니다. 평소 바른 생활과 열정 넘치는 모습을 보여주던 <b>유노윤호</b>, 어떤 실수를 한 걸까요. <b>유노윤호</b>는 지난 2월 말 서울의 한 음식점에서 자정까지 머물다 경찰에... ",
-            "pubDate": "Wed, 10 Mar 2021 17:19:00 +0900"
+            "title": "",
+            "originallink": "",
+            "link": "",
+            "description": "",
+            "pubDate": ""
         },
      */
 
